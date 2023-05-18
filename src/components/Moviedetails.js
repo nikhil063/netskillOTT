@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { Allmovies } from './Allmovies.js';
 import Similarmovies from './Similarmovies.js';
 
@@ -56,10 +56,10 @@ const Moviedetails = () => {
                 </button>
               </div>
 
-              <Link style={{ backgroundColor: "#DA3714", width: "116px", height: "116px", borderRadius: "100px", marginLeft: "63px" }}>
+              <button style={{ backgroundColor: "#DA3714", width: "116px", height: "116px", borderRadius: "100px", marginLeft: "63px" }}>
                 <img src='/Images/playvector.svg' alt='play' style={{ height: "50px", width: "37px", paddingLeft: "46.04px", paddingTop: "33.27px" }} />
 
-              </Link>
+              </button>
 
             </div>
 
