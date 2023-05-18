@@ -1,0 +1,298 @@
+export const Allmovies = [
+    {
+        id: 1,
+        image: "../Images/wfw.png",
+        name: "WFW",
+        desc: "lorem ipsum dolor",
+        genre: "Trending",
+        banner:"../Images/tenetwide.png",
+        duration:"2h 30min",
+        year:"2020",
+        tags:"Action",
+        imdb:"4.2"
+    },
+
+    {
+        id: 2,
+        image: "../Images/kings.png",
+        name: "The king's daughter",
+        desc: "lorem ipsum dolor",
+        genre: "Trending",
+        banner:"../Images/tenetwide.png",
+        duration:"2h 30min",
+        year:"2020",
+        tags:"Mystery",
+        imdb:"7.9"
+    },
+
+    {
+        id: 3,
+        image: "../Images/pikachu.png",
+        name: "Detective Pikachu",
+        desc: "lorem ipsum dolor",
+        genre: "Trending",
+        banner:"../Images/tenetwide.png",
+        duration:"2h 30min",
+        year:"2020",
+        tags:"Comedy",
+        imdb:"8.2"
+    },
+
+    {
+        id: 4,
+        image: "../Images/willys.png",
+        name: " Willy's wonderland",
+        desc: "lorem ipsum dolor",
+        genre: "Trending",
+        banner:"../Images/tenetwide.png",
+        duration:"2h 30min",
+        year:"2020",
+        tags:"Thriller",
+        imdb:"6.5"
+    },
+
+    {
+        id: 5,
+        image: "../Images/suicide.png",
+        name: "The suicide squad",
+        desc: "lorem ipsum dolor",
+        genre: "Trending",
+        banner:"../Images/tenetwide.png",
+        duration:"2h 30min",
+        year:"2020",
+        tags:"Action",
+        imdb:"5.2"
+    },
+    {
+        id: 6,
+        image: "../Images/mutants.png",
+        name: "The new mutants",
+        desc: "lorem ipsum dolor",
+        genre: "Trending",
+        banner:"../Images/tenetwide.png",
+        duration:"2h 30min",
+        year:"2020",
+        tags:"Mystery",
+        imdb:"7.4"
+    },
+    
+    {
+        id: 8,
+        image: "../Images/prey.png",
+        name: "The birds of prey",
+        desc: "lorem ipsum dolor",
+        genre: "Trending",
+        banner:"../Images/tenetwide.png",
+        duration:"2h 30min",
+        year:"2020",
+        tags:"Comedy",
+        imdb:"9"
+    },
+    {
+        id: 9,
+        image: "../Images/kong.png",
+        name: "Godzilla vs kong",
+        desc: "lorem ipsum dolor",
+        genre: "Trending",
+        banner:"../Images/tenetwide.png",
+        duration:"1h 30min",
+        year:"2020",
+        tags:"Fantasy",
+        imdb:"7"
+    },
+    {
+        id: 10,
+        image: "../Images/light.png",
+        name: "The devil's light",
+        desc: "lorem ipsum dolor",
+        genre: "Horror",
+        banner:"../Images/tenetwide.png",
+        duration:"2h 30min",
+        year:"2020",
+        tags:"Action",
+        imdb:"8.2"
+    },
+    {
+        id: 11,
+        image: "../Images/scream.png",
+        name: "Scream",
+        desc: "lorem ipsum dolor",
+        genre: "Horror",
+        banner:"../Images/tenetwide.png",
+        duration:"2h 37min",
+        year:"2020",
+        tags:"horror",
+        imdb:"8.1"
+    },
+    {
+        id: 12,
+        image: "../Images/demonic.png",
+        name: "Demonic",
+        desc: "lorem ipsum dolor",
+        genre: "Horror",
+        banner:"../Images/tenetwide.png",
+        duration:"2h 34min",
+        year:"2020",
+        tags:"horror",
+        imdb:"8.6"
+    },
+    {
+        id: 14,
+        image: "../Images/left.png",
+        name: "You should have left",
+        desc: "lorem ipsum dolor",
+        genre: "Horror",
+        banner:"../Images/tenetwide.png",
+        duration:"1h 40min",
+        year:"2020",
+        tags:"horror",
+        imdb:"9.3"
+    },
+    {
+        id: 15,
+        image: "../Images/dream.png",
+        name: "Dreamkatcher",
+        desc: "lorem ipsum dolor",
+        genre: "Horror",
+        banner:"../Images/tenetwide.png",
+        duration:"2h 12min",
+        year:"2020",
+        tags:"Action",
+        imdb:"5.4"
+    },
+    {
+        id: 16,
+        image: "../Images/boy.png",
+        name: "Brahams: The boy",
+        desc: "lorem ipsum dolor",
+        genre: "Horror",
+        banner:"../Images/tenetwide.png",
+        duration:"2h 45min",
+        year:"2020",
+        tags:"Action",
+        imdb:"5.6"
+    },
+    {
+        id: 17,
+        image: "../Images/memory.png",
+        name: "Memory",
+        desc: "lorem ipsum dolor",
+        genre: "Horror",
+        banner:"../Images/tenetwide.png",
+        duration:"30min",
+        year:"2020",
+        tags:"Horror",
+        imdb:"7.8"
+    },
+    {
+        id: 18,
+        image: "../Images/invisible.png",
+        name: "The invisible man",
+        desc: "lorem ipsum dolor",
+        genre: "Horror",
+        banner:"../Images/tenetwide.png",
+        duration:"2h 30min",
+        year:"2020",
+        tags:"Thriller",
+        imdb:"8.5"
+    },
+    {
+        id: 19,
+        image: "../Images/dune.png",
+        name: "Dune",
+        desc: "lorem ipsum dolor",
+        genre: "Sci-Fi",
+        banner:"../Images/tenetwide.png",
+        duration:"2h 15min",
+        year:"2020",
+        tags:"Action",
+        imdb:"7"
+    },
+    {
+        id: 20,
+        image: "../Images/tenet.png",
+        name: "Tenet",
+        desc: "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+        genre: "Sci-Fi",
+        banner:"../Images/tenetwide.png",
+        duration:"1h 40min",
+        year:"2020",
+        tags:"Action",
+        imdb:"7.2"
+    },
+    {
+        id: 21,
+        image: "../Images/finch.png",
+        name: "Finch",
+        desc: "lorem ipsum dolor",
+        genre: "Sci-Fi",
+        banner:"../Images/tenetwide.png",
+        duration:"1h 56min",
+        year:"2020",
+        tags:"Future",
+        imdb:"9.1"
+    },
+    {
+        id: 22,
+        image: "../Images/predator.png",
+        name: "Predator",
+        desc: "lorem ipsum dolor",
+        genre: "Sci-Fi",
+        banner:"../Images/tenetwide.png",
+        duration:"2h 23min",
+        year:"2020",
+        tags:"Action",
+        imdb:"8.3"
+    },
+    {
+        id: 23,
+        image: "../Images/skyline.png",
+        name: "Skylines",
+        desc: "lorem ipsum dolor",
+        genre: "Sci-Fi",
+        banner:"../Images/tenetwide.png",
+        duration:"2h 41min",
+        year:"2020",
+        tags:"Cyberpunk",
+        imdb:"7"
+    },
+    {
+        id: 24,
+        image: "../Images/bloodshot.png",
+        name: "Bloodshot",
+        desc: "lorem ipsum dolor",
+        genre: "Sci-Fi",
+        banner:"../Images/tenetwide.png",
+        duration:"2h 46min",
+        year:"2020",
+        tags:"Vigilante",
+        imdb:"8.2"
+    },
+    {
+        id: 25,
+        image: "../Images/extinction.png",
+        name: "Extinction",
+        desc: "lorem ipsum dolor",
+        genre: "Sci-Fi",
+        banner:"../Images/tenetwide.png",
+        duration:"2h 15min",
+        year:"2020",
+        tags:"Action",
+        imdb:"6.2"
+    },
+    {
+        id: 26,
+        image: "../Images/replicas.png",
+        name: "Replicas",
+        desc: "lorem ipsum dolor",
+        genre: "Sci-Fi",
+        banner:"../Images/tenetwide.png",
+        duration:"2h 30min",
+        year:"2020",
+        tags:"Surreal",
+        imdb:"8.7"
+    },
+    
+
+
+];
