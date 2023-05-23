@@ -5,12 +5,25 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Moviedetails from "./components/Moviedetails";
 import Categories from "./components/Categories";
+import * as React from 'react'
 
+// 1. import `ChakraProvider` component
+import { ChakraProvider } from '@chakra-ui/react'
+
+// function App() {
+//   // 2. Wrap ChakraProvider at the root of your app
+//   return (
+//     <ChakraProvider>
+//       <TheRestOfYourApplication />
+//     </ChakraProvider>
+//   )
+// }
 
 
 function App() {
   return (
   <>
+  <ChakraProvider>
   <Router>
     <Navbar />
       <Routes>
@@ -20,6 +33,7 @@ function App() {
       </Routes>
     <Footer/>
     </Router>
+    </ChakraProvider>
     </>
   );
 }

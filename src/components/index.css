@@ -17,4 +17,27 @@
    body {
     overflow-y: scroll;
   }
+
+
   
+
+
+  
+
+  @media (max-width: 768px) {
+  
+  .hamburger-icon {
+    display: block;
+  }
+
+  .mobile-menu {
+    display: flex;
+  }
+
+  .desktop-menu {
+    display: none;
+  }
+}
+
+  
+
