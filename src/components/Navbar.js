@@ -7,15 +7,16 @@ function Navbar() {
     const [display, changeDisplay] = useState('none')
 
     return (
-        <Flex justify='space-between' align='center' flexWrap="wrap">
+        <Flex justify='space-between' align='center' >
+
             <Flex pl="5vw" pt="1vw" >
                 <p style={{ fontFamily: "Oswald", fontWeight: "700", fontSize: "4vw", color: "#FFFFFF" }}>Watch</p><p style={{ fontFamily: "Oswald", fontWeight: "700", fontSize: "4vw", color: "#DA3714" }}>Flix</p>
             </Flex>
 
 
-            <Flex pt="1vw" justifyContent='center'>
+            <Flex pt="1vw" justifyContent='center' >
                 <Link to="/"><Button className="main-button"
-                    
+
                     color="white"
                     background="none"
                     marginRight="2vw"
@@ -27,7 +28,7 @@ function Navbar() {
                     variant="unstyled"
                     borderRadius="0"
                     height="4vw"
-                    
+
                 >
                     Movies
                 </Button>
@@ -83,30 +84,9 @@ function Navbar() {
 
             </Flex>
 
-
-
-
-
-            <Flex pt="1vw" justifyContent='flex-end' p='0'>
-                <Button 
-                    color="white"
-                    background="none"
-                    fontFamily="Poppins"
-                    fontWeight="400"
-                    fontSize="1.5vw"
-                    align='center'
-                    p='0'
-                    variant="unstyled"
-                    borderRadius="0"
-                    height="4vw"
-                >
-                    <img src="/Images/magicon.png" alt="" style={{ color: "white", width: "2vw" }} p='0' />
-                </Button>
-
-                <Flex display={['none', 'none', 'flex', 'flex']}>
-
-                    <Button 
-                       
+            
+            <Flex >
+                <Button
                         color="white"
                         background="none"
                         fontFamily="Poppins"
@@ -115,15 +95,42 @@ function Navbar() {
                         align='center'
                         p='0'
                         variant="unstyled"
-                    borderRadius="0"
-                    height="4vw"
+                        borderRadius="0"
+                        height="4vw"
+                    >
+                        <img src="/Images/magicon.png" alt="" style={{ color: "white", width: "2vw" }} p='0' />
+                    </Button>
+            </Flex>
+
+
+
+            <Flex pt="1vw" justifyContent='flex-end' p='0' w="4vw">
+                
+
+                <IconButton variant="unstyled" icon={<HamburgerIcon color="white" width="2vw" />} bg="transparent" display={['flex', 'flex', 'none', 'none']} onClick={() => changeDisplay('flex')} justify="flex-end" />
+
+
+                <Flex display={['none', 'none', 'flex', 'flex']}>
+
+                    <Button
+
+                        color="white"
+                        background="none"
+                        fontFamily="Poppins"
+                        fontWeight="400"
+                        align='center'
+                        p='0'
+                        variant="unstyled"
+                        borderRadius="0"
+                        height="4vw"
                     >
                         <img src="/Images/noticon.png" alt="" style={{ color: "white", width: "2vw" }} />
                     </Button>
+
                     <Button className="main-button"
                         variant="unstyled"
-                    borderRadius="0"
-                    height="4vw"
+                        borderRadius="0"
+                        height="4vw"
                         color="white"
                         background="none"
                         fontFamily="Poppins"
@@ -136,30 +143,38 @@ function Navbar() {
                         Sign Up
                     </Button>
                 </Flex>
-
-
             </Flex>
 
 
-            <Flex position="fixed" width="100vw" left="0" top="0" right="0" bgColor="black" zIndex={20} h="100vh" overflowY="auto" flexDir="column" display={display} pt="1vw">
 
-                <Box>
-                    <Button className="main-button"
+
+
+
+
+            <Flex position="fixed" width="100%" left="0" top="0" right="0" bgColor="black" zIndex="20" h="100%" overflowY="auto" flexDir="column" display={display} >
+
+                <Flex justify="flex-end">
+                    <IconButton variant="unstyled" bg="transparent"  icon={<CloseIcon  color="white" width="2vw"  bg="transparent" />} onClick={() => changeDisplay('none')} />
+                </Flex>
+
+                <Flex flexDir="column">
+                    <Button 
                         variant="unstyled"
-                    borderRadius="0"
-                    height="4vw"
+                        borderRadius="0"
+                        height="4vw"
                         color="white"
                         background="none"
                         fontFamily="Poppins"
                         fontWeight="400"
                         fontSize="1.5vw"
                     >
-                        <span>Notifications <img src="/Images/noticon.png" alt="" style={{ color: "white", width: "2vw" }} /></span>
+                        <span style={{display:"flex", justifyContent:"center"}}>Notifications <img src="/Images/noticon.png" alt="" style={{ color: "white", width: "2vw", marginLeft:"1vw" }} /></span>
                     </Button>
-                    <Button className="main-button"
+
+                    <Button 
                         variant="unstyled"
-                    borderRadius="0"
-                    height="4vw"
+                        borderRadius="0"
+                        height="4vw"
                         color="white"
                         background="none"
                         fontFamily="Poppins"
@@ -169,7 +184,7 @@ function Navbar() {
                         Sign Up
                     </Button>
 
-                </Box>
+                </Flex>
             </Flex>
         </Flex>
     );
@@ -199,7 +214,7 @@ export default Navbar;
 
 //                 <div style={{ paddingTop: "25px" }}>
 //                     <Link to='/'>
-//                         <button className="main-button"
+//                         <button 
 
 //                     </Link>
 //                     <Link to='/'>

@@ -9,6 +9,7 @@ import * as React from 'react'
 
 // 1. import `ChakraProvider` component
 import { ChakraProvider } from '@chakra-ui/react'
+import Scrolltotop from "./components/Scrolltotop";
 
 // function App() {
 //   // 2. Wrap ChakraProvider at the root of your app
@@ -26,6 +27,7 @@ function App() {
   <ChakraProvider>
   <Router>
     <Navbar />
+    <Scrolltotop />
       <Routes>
       <Route path='/' element={<Home />} />
         <Route path="/movies/:id" element={<Moviedetails />} />
