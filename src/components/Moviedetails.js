@@ -33,17 +33,17 @@ const Moviedetails = () => {
   }
 
 
-  const playVideo = () => {
-    if (movie.videos && movie.videos.results && movie.videos.results.length > 0) {
-      setIsPlaying(true);
-    }
-  };
+  // const playVideo = () => {
+  //   if (movie.videos && movie.videos.results && movie.videos.results.length > 0) {
+  //     setIsPlaying(true);
+  //   }
+  // };
 
   return (
     <>
       <div style={{ color: "#FFFFFF", paddingBottom: "48px" }}>
         <div style={{ position: "relative" }}>
-          <img style={{margin:"4vw",width: "92vw",height:"50vw", borderRadius:"1vw", height:"100%" }} src={`https://image.tmdb.org/t/p/original/${movie.backdrop_path}`} alt={movie.title} />
+          <img style={{margin:"4vw",width: "92vw",height:"50vw", borderRadius:"1vw"}} src={`https://image.tmdb.org/t/p/original/${movie.backdrop_path}`} alt={movie.title} />
           <div
             style={{
               marginLeft:"4vw",
