@@ -3,26 +3,74 @@
     border: 0px;
    font-family: 'Overpass', sans-serif;
    }
-   
-   button:hover{
-       opacity: 70%;
+ 
+   .main-button:hover{
+       opacity: 80%;
    }
    
-   button:active{
-       border-bottom: 3px solid red;
+   .main-button:active,
+   .main-button:focus{
+    
+     border-bottom: 0.5vw solid red;
+       width: 10%; 
+       font-weight:600;
+       position: relative;
+   }
 
-   
-   }
+/*  
+   .main-button:active::after,
+   .main-button:focus::after {
+     content: "";
+     position: absolute;
+     left: 0;
+     bottom: 0px;
+     width: 50%;
+     height: 0.5vw;
+     background-color: red;
+   } */
+
+/* 
+
+   .main-button {
+    color: white;
+    background: none;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 1.5vw;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .main-button:hover,
+  .main-button:focus {
+    border-bottom: 3px solid red;
+    width: 10%;
+    font-weight: 600;
+  } */
+  
+  @media (max-width: 600px) {
+    .main-button:hover,
+    .main-button:focus {
+      width: 20%;
+    }
+  }
+
 
    body {
     overflow-y: scroll;
   }
 
+  /* @media (max-width: 600px) {
+    .main-button:active,
+    .main-button:focus {
+      width: 20%;
+    }
+    
+    .main-button:active::after,
+    .main-button:focus::after {
+      width: 70%;
+    }
+  } */
 
-  
-
-
-  
 
   @media (max-width: 768px) {
   

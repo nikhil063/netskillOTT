@@ -1,16 +1,20 @@
-import React from 'react'
+// import React, { useEffect, useState } from 'react'
 import Categorycard from './Categorycard'
 import { Grid } from '@chakra-ui/react'
 
 export default function Categories() {
-  return (
-    // < div style={{ display:"grid", gridTemplateColumns: 'repeat(4, 1fr)',
-    // gridGap: '32px', padding:"115px 72px 64px"}}>
-    <div style={{width:"100%", maxWidth:"100vw", overflowX:"hidden"}}>
+
+  
+  
+
+  return (<>    
+ 
+    <div style={{width:"100%", maxWidth:"100vw", padding:"4vw"}}>
+      
       <Grid
       templateColumns={{ base: "repeat(3, 1fr)", lg: "repeat(4, 1fr)" }}
       templateRows={{ base: "repeat(4, 1fr)", lg: "repeat(3, 1fr)" }}
-      gap={2} px="2vw" py='2vh' w="100%"
+      gap="2vw"  w="100%"
         >
       <Categorycard category="Action & adventure" image={"./Images/action.png"} />
          <Categorycard category="Anime" image={"./Images/anime.png"}/>
@@ -26,7 +30,9 @@ export default function Categories() {
          <Categorycard category="Mystery & thriller" image={"./Images/thriller.png"}/>
          </Grid>
     </div>
+    </>
 
-    // </div>
+
+  
   )
 }

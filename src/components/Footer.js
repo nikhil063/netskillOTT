@@ -4,46 +4,50 @@ import React from 'react';
 function Footer() {
   return (
     <>
-      <div style={{ display: "flex", flexDirection: "column", padding: "0px", backgroundColor: "black", color: "white", justifyContent: "space-between", margin: "0px" }}>
-        <div style={{ padding: "2vw 1vw", display: "flex", justifyContent: "flex-start" }}>
-        <Flex ml="5vw" mt="1vw" mb='1vw' >
+      <div style={{ display: "flex", flexDirection: "row", padding: "0px", backgroundColor: "black", color: "white", justifyContent: "space-between", margin: "0", width:"100%" }}>
+        
+        
+        
+        <Flex ml="6vw" mt="3vw" mb='1vw' justifyContent="flex-start" >
                 <p style={{ fontFamily: "Oswald", fontWeight: "700", fontSize: "2.5vw", color: "#FFFFFF" }}>Watch</p><p style={{ fontFamily: "Oswald", fontWeight: "700", fontSize: "2.5vw", color: "#DA3714" }}>Flix</p>
             </Flex>
-        </div>
+        
+        
 
         
-         <Flex mx="2vw" justifyContent="space-evenly">
+         <Flex mx="2vw" justifyContent="space-between" w="96vw" mt='4vw'>
            
-           <Flex>
+           <Flex justifyContent='space-between' mx='2vw'>
+
              <div style={{ marginBottom: "30px" }}>
-               <h1  style={{ fontFamily: "Overpass", fontSize: "3vw", fontWeight: "700", marginBottom: "1vw", color: "#DA3714" }}>Connect Us</h1>
+               <h1  style={{ fontFamily: "Overpass", fontSize: "2vw", fontWeight: "700", marginBottom: "1vw", color: "#DA3714" }}>Connect Us</h1>
                <div style={{ fontFamily: "Overpass", color: "#4D5053", display: "flex", flexDirection: "column", fontSize: "2vw", marginBottom: "18px" }}>
-                 <button style={{ color: "white", background: "none", marginBottom: "1vw", textAlign: "initial" }}>-About</button>
-                 <button style={{ color: "white", background: "none", marginBottom: "1vw", textAlign: "initial" }}>-Contact Us</button>
-                 <button style={{ color: "white", background: "none", marginBottom: "1vw", textAlign: "initial" }}>-Help center</button>
-                 <button style={{ color: "white", background: "none", marginBottom: "1vw", textAlign: "initial" }}>-Career</button>
+                 <button style={{ color: "white", background: "none", marginBottom: "1vw", textAlign: "initial", fontSize:"1.2vw" }}>-About</button>
+                 <button style={{ color: "white", background: "none", marginBottom: "1vw", textAlign: "initial", fontSize:"1.2vw" }}>-Contact Us</button>
+                 <button style={{ color: "white", background: "none", marginBottom: "1vw", textAlign: "initial", fontSize:"1.2vw" }}>-Help center</button>
+                 <button style={{ color: "white", background: "none", marginBottom: "1vw", textAlign: "initial", fontSize:"1.2vw" }}>-Career</button>
                </div>
              </div>
            </Flex>
-           <Flex>
+           <Flex mx='2vw'>
              <div style={{ marginBottom: "2vw" }}>
-               <h1 style={{ fontFamily: "Overpass", fontSize: "3vw", fontWeight: "700", marginBottom: "1vw", color: "#DA3714" }}>Manage </h1>
+               <h1 style={{ fontFamily: "Overpass", fontSize: "2vw", fontWeight: "700", marginBottom: "1vw", color: "#DA3714" }}>Manage </h1>
                <div style={{ fontFamily: "Overpass", color: "#4D5053", display: "flex", flexDirection: "column", fontSize: "2vw", marginBottom: "18px" }}>
-                 <button style={{ color: "white", background: "none", marginBottom: "1vw", textAlign: "initial" }}>-Account</button>
-                 <button style={{ color: "white", background: "none", marginBottom: "1vw", textAlign: "initial" }}>-Manage Account</button>
-                 <button style={{ color: "white", background: "none", marginBottom: "1vw", textAlign: "initial" }}>-Buy Gift Card</button>
-                 <button style={{ color: "white", background: "none", marginBottom: "1vw", textAlign: "initial" }}>-Redeem Gift Card</button>
+                 <button style={{ color: "white", background: "none", marginBottom: "1vw", textAlign: "initial", fontSize:"1.2vw" }}>-Account</button>
+                 <button style={{ color: "white", background: "none", marginBottom: "1vw", textAlign: "initial", fontSize:"1.2vw" }}>-Manage Account</button>
+                 <button style={{ color: "white", background: "none", marginBottom: "1vw", textAlign: "initial", fontSize:"1.2vw" }}>-Buy Gift Card</button>
+                 <button style={{ color: "white", background: "none", marginBottom: "1vw", textAlign: "initial", fontSize:"1.2vw" }}>-Redeem Gift Card</button>
                </div>
              </div>
            </Flex>
-           <Flex>
+           <Flex mx='2vw'>
              <div>
-               <h1  style={{ fontFamily: "Overpass", fontSize: "3vw", fontWeight: "700", marginBottom: "1vw", color: "#DA3714" }}>Information </h1>
+               <h1  style={{ fontFamily: "Overpass", fontSize: "2vw", fontWeight: "700", marginBottom: "1vw", color: "#DA3714" }}>Information </h1>
                <div style={{ fontFamily: "Overpass", color: "#4D5053", display: "flex", flexDirection: "column", fontSize: "2vw", marginBottom: "18px" }}>
-                 <button style={{ color: "white", background: "none", marginBottom: "1vw", textAlign: "initial" }}>-Privacy</button>
-                 <button style={{ color: "white", background: "none", marginBottom: "1vw", textAlign: "initial" }}>-Terms & Condition</button>
-                 <button style={{ color: "white", background: "none", marginBottom: "1vw", textAlign: "initial" }}>-Cookies</button>
-                 <button style={{ color: "white", background: "none", marginBottom: "1vw", textAlign: "initial" }}>-FAQ</button>
+                 <button style={{ color: "white", background: "none", marginBottom: "1vw", textAlign: "initial", fontSize:"1.2vw" }}>-Privacy</button>
+                 <button style={{ color: "white", background: "none", marginBottom: "1vw", textAlign: "initial", fontSize:"1.2vw" }}>-Terms & Condition</button>
+                 <button style={{ color: "white", background: "none", marginBottom: "1vw", textAlign: "initial", fontSize:"1.2vw" }}>-Cookies</button>
+                 <button style={{ color: "white", background: "none", marginBottom: "1vw", textAlign: "initial", fontSize:"1.2vw" }}>-FAQ</button>
                </div>
              </div>
            </Flex>

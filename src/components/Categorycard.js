@@ -9,12 +9,9 @@ const Categorycard = ({image, category}) => {
 <div className='category-card'>
   
   <Link>
-  
-  
         <Box
           position="relative"
           width='100%'
-          // {{ base: "100%", md: "28vw", lg: "33.33vw" }}
           height="30vw"
           borderRadius="2.67vw"
           overflow="hidden"
@@ -25,8 +22,7 @@ const Categorycard = ({image, category}) => {
             backgroundSize="cover"
             height="100%"
             borderRadius="2.67vw"
-            position="relative"
-          >
+            position="relative">
             <Box
               className="overlay"
               position="absolute"
@@ -42,7 +38,7 @@ const Categorycard = ({image, category}) => {
               transform="translate(-50%, -50%)"
               color="#FFFFFF"
               textAlign="center"
-              fontSize="4.27vw"
+              fontSize="2.27vw"
               fontFamily="Overpass"
               fontWeight="600"
             >
@@ -53,40 +49,7 @@ const Categorycard = ({image, category}) => {
   </Link>
 </div>
   
-{/* const MyResponsiveComponent = () => {
-  return (
-    <Link>
-      <MyComponent image={yourImageUrl} category="Your Category" />
-    </Link>
-  );
-}; */}
 
-
-
-    {/* <Link>
-        <div style={{ position: 'relative'}}>
-          <div  style={{
-              backgroundImage: `url(${image})`,
-              backgroundSize: 'cover',
-              height: '330px',
-              width:"300px",
-              position: 'relative',
-              borderRadius:"12px"
-            }}
-          >
-            <div
-              className="overlay"
-              style={{
-                position: 'absolute',
-                width: '300px',
-                height: '330px',
-                backgroundColor: 'rgba(0, 0, 0, 0.7)',
-                borderRadius:"12px"
-              }} ></div>
-           <p style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color: '#FFFFFF', textAlign: 'center', fontSize:"32px", fontFamily:"Overpass", fontWeight:"600"}}>{category}</p>
-          </div>
-        </div>
-    </Link> */}
 
     
     </>

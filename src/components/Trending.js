@@ -9,10 +9,10 @@ import { Flex } from '@chakra-ui/react';
 
 
 
-const Carousel = () => {
+const Trending = () => {
     const settings = {
         dots: false,
-        arrows: true,
+        arrows: false,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -37,7 +37,7 @@ const Carousel = () => {
 
     return (
         <>
-<h1 style={{ color: "white", paddingBottom:"1vw", paddingLeft:"4vw", fontWeight:"600", fontFamily:"Poppins", fontSize:"1.2vw"}}>Trending</h1>
+<h1 style={{ color: "white", paddingBottom:"1vw", paddingLeft:"5vw", fontWeight:"600", fontFamily:"Poppins", fontSize:"1.2vw"}}>Trending</h1>
 
 <Slider {...settings} style={{padding:"0 4vw"}}>
         {movies.map((movie) => (
@@ -49,14 +49,14 @@ const Carousel = () => {
               height="100%"
               px="1vw"
               py="2vw"
-              minWidth='15vw'
-              w='15vw'
+              minWidth='12vw'
+              w='12vw'
             >
               <Link to={`/movies/${movie.id}`}>
                 <img
                   src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
                   alt={movie.title}
-                  style={{ width: '100%', borderRadius: '8px' }}
+                  style={{ width: '100%', borderRadius: '0.2vw' }}
                 />
               </Link>
             </Flex>
@@ -68,7 +68,7 @@ const Carousel = () => {
     );
 };
 
-export default Carousel;
+export default Trending;
 
 
 
