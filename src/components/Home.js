@@ -5,7 +5,6 @@ import Trending from './Trending';
 import { FaStar } from 'react-icons/fa';
 import { useEffect, useState } from 'react';
 
-
 function Home() {
   const [movie, setMovie] = useState(null);
 
@@ -14,7 +13,6 @@ function Home() {
       try {
         const response = await fetch(
           'https://api.themoviedb.org/3/movie/335984?api_key=e6c2085daccec2eb8012b84387460472'
-
         );
         console.log('Response:', response);
         if (response.ok) {
@@ -38,9 +36,9 @@ function Home() {
 
     for (let i = 0; i < 5; i++) {
       if (i < rating) {
-        stars.push(<FaStar key={i} color="#ffd700" />);
+        stars.push(<FaStar key={i} color="#ffd700" size="1.5vw"/>);
       } else {
-        stars.push(<FaStar key={i} color="#c4c4c4" />);
+        stars.push(<FaStar key={i} color="#c4c4c4" size="1.5vw" />);
       }
     }
 
@@ -52,7 +50,7 @@ function Home() {
       {movie && (
         <div style={{ marginRight: "5vw", marginLeft: "5vw", marginBottom: "4vw" }}>
 
-          <div style={{ backgroundImage: `linear-gradient(91.99deg, #000000 -1.19%, rgba(0, 0, 0, 0) 73.82%), url(https://image.tmdb.org/t/p/original/${movie.backdrop_path})`, width: "90vw", height: "50vw", borderRadius: "1vw", backgroundSize: "cover", marginLeft: "0vw" }}>
+          <div style={{ backgroundImage: `linear-gradient(91.99deg, #000000 -1.19%, rgba(0, 0, 0, 0) 73.82%), url(https://image.tmdb.org/t/p/original/${movie.backdrop_path})`, width: "89vw", height: "50vw", borderRadius: "1vw", backgroundSize: "cover", marginLeft: "0vw" }}>
 
 
             <p style={{ fontFamily: "Oswald", fontWeight: "700", fontSize: "7vw", color: "#FFFFFF", padding: "3vw 4vw 1vw" }}>{movie.title}</p>

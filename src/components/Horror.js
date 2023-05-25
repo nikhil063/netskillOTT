@@ -11,7 +11,7 @@ const Horror = () => {
         dots: false,
         arrows: false,
         speed: 500,
-        slidesToShow: 1,
+        slidesToShow: 6,
         slidesToScroll: 1,
         swipeToSlide: true,
         draggable: true,

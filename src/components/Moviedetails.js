@@ -77,11 +77,10 @@ const Moviedetails = () => {
         <p style={{ color: "#FFFFFF", fontFamily: "Overpass", fontSize: "1vw" }}>SHARE</p>
       </Link>
     </div>
-    {/* <Link to={`/movies/${id}`}> */}
+    
       <button style={{ backgroundColor: "#DA3714", width: "9vw", height: "9vw", borderRadius: "100px",display:"flex",justifyContent:"space-evenly", alignItems:"center", opacity:"1" }} onClick={() => setIsPlaying(true)}>
         <img src='/Images/playvector.svg' alt='play' style={{ height: "4.5vw", width: "4.5vw" , paddingLeft:"0.5vw"}} />
       </button>
-    {/* </Link> */}
 
 
  
@@ -144,12 +143,15 @@ const Moviedetails = () => {
     url={`https://www.youtube.com/watch?v=${movie.videos.results[0].key}`}
     controls={true}
     width="100%"
+    height="50vw"
 
   />
 )}
 
-
-<Similarmovies setIsPlaying={setIsPlaying} />
+<div style={{paddingTop:"2vw"}}>
+  
+  <Similarmovies setIsPlaying={setIsPlaying} />
+</div>
     </>
   );
 };

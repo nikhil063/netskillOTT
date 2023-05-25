@@ -10,7 +10,7 @@ function Navbar() {
         <Flex justify='space-between' align='center' >
 
             <Flex pl="5vw" pt="1vw" >
-                <p style={{ fontFamily: "Oswald", fontWeight: "700", fontSize: "4vw", color: "#FFFFFF" }}>Watch</p><p style={{ fontFamily: "Oswald", fontWeight: "700", fontSize: "4vw", color: "#DA3714" }}>Flix</p>
+                <p style={{ fontFamily: "Oswald", fontWeight: "700", fontSize: "3.5vw", color: "#FFFFFF" }}>Watch</p><p style={{ fontFamily: "Oswald", fontWeight: "700", fontSize: "3.5vw", color: "#DA3714" }}>Flix</p>
             </Flex>
 
 
