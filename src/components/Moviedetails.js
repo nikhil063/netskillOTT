@@ -53,7 +53,7 @@ const Moviedetails = () => {
               left: 0,
               borderRadius: "1vw",
               width: "92vw",
-              height:"52vw",
+              height:"50vw",
               background: "linear-gradient(2.7deg, #1A1A1D -0.65%, rgba(26, 26, 29, 0) 42.05%)",
               zIndex: 1
             }}
